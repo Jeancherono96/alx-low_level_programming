@@ -1,11 +1,12 @@
 #include <stdio.h>
 /**
- * main - Write a program that prints the alphabet in lowercase, and then in uppercase, followed by a new line.
+ * main - Write a program that prints the alphet
  * Return: (0)
  */
 int main(void)
 {
 	char b;
+
 	for (b = 'a'; b <= 'z'; b++)
 		putchar(b);
 	for (b = 'A'; b <= 'Z'; b++)
